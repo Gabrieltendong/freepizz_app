@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "freepizz",
+    "slug": "freepizz",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
