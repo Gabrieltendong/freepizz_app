@@ -1,0 +1,5 @@
+export const SIGN_UP = 'Sign Up'
+export const SIGN_IN = 'Sign In'
+export const CODE_PROMO = 'Confirmation'
+export const FREE_BEES = 'Mon portefeuille Freebees'
+export const RESTO = 'Nos Restos'
