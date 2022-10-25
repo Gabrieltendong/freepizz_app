@@ -13,19 +13,19 @@ const Compte = () => {
     return (
         <Container>
             <View style={styles.wrapper} >
-                <View style={[styles.rowFlex, { justifyContent: 'flex-start', marginBottom: 10, marginLeft: 10 }]} >
+                <View style={[styles.rowFlex, styles.flexStart]} >
                     <Feather name="user" size={32} color={PRIMARY} />
                     <Text style={styles.itemTitle} >Compte</Text>
                 </View>
                 <View style={styles.borderBox} >
-                    <View style={[styles.rowFlex, { paddingHorizontal: 10, paddingVertical: 5 }]} >
+                    <View style={[styles.rowFlex, styles.paddingXY]} >
                         <Text style={styles.flexTxt} >
                             infos personnelles
                         </Text>
                         <Feather name='chevron-right' size={28} />
                     </View>
                     <View style={styles.divider} />
-                    <View style={[styles.rowFlex, { paddingHorizontal: 10, paddingVertical: 5 }]} >
+                    <View style={[styles.rowFlex, styles.paddingXY]} >
                         <Text style={styles.flexTxt} >
                             infos personnelles
                         </Text>
@@ -34,12 +34,12 @@ const Compte = () => {
                 </View>
             </View>
             <View style={styles.wrapper} >
-                <View style={[styles.rowFlex, { justifyContent: 'flex-start', marginBottom: 10, marginLeft: 10 }]} >
+                <View style={[styles.rowFlex, styles.flexStart]} >
                     <SimpleLineIcons name="screen-smartphone" size={32} color={PRIMARY} />
                     <Text style={styles.itemTitle} >Application</Text>
                 </View>
                 <View style={styles.borderBox} >
-                    <View style={[styles.rowFlex, { paddingHorizontal: 10, paddingVertical: 5 }]} >
+                    <View style={[styles.rowFlex, styles.paddingXY]} >
                         <Text style={styles.flexTxt} >
                             Langue
                         </Text>
@@ -47,7 +47,7 @@ const Compte = () => {
 
                     </View>
                     <View style={styles.divider} />
-                    <View style={[styles.rowFlex, { paddingHorizontal: 10, paddingVertical: 5 }]} >
+                    <View style={[styles.rowFlex, styles.paddingXY]} >
                         <Text style={styles.flexTxt} >
                             Mode
                         </Text>
@@ -56,12 +56,12 @@ const Compte = () => {
                 </View>
             </View>
             <View style={styles.wrapper} >
-                <View style={[styles.rowFlex, { justifyContent: 'flex-start', marginBottom: 10, marginLeft: 10 }]} >
+                <View style={[styles.rowFlex, styles.flexStart]} >
                     <Ionicons name="finger-print" size={32} color={PRIMARY} />
                     <Text style={styles.itemTitle} >Securite</Text>
                 </View>
                 <View style={styles.borderBox} >
-                    <View style={[styles.rowFlex, { paddingHorizontal: 10, paddingVertical: 5 }]} >
+                    <View style={[styles.rowFlex, styles.paddingXY]} >
                         <Text style={styles.flexTxt} >
                             Utiliser ma carte
                         </Text>
@@ -69,7 +69,7 @@ const Compte = () => {
 
                     </View>
                     <View style={styles.divider} />
-                    <View style={[styles.rowFlex, { paddingHorizontal: 10, paddingVertical: 5 }]} >
+                    <View style={[styles.rowFlex, styles.paddingXY]} >
                         <Text style={styles.flexTxt} >
                             Autoriser prochain paiement
                         </Text>
@@ -84,12 +84,12 @@ const Compte = () => {
                 </View>
             </View>
             <View style={styles.wrapper} >
-                <View style={[styles.rowFlex, { justifyContent: 'flex-start', marginBottom: 10, marginLeft: 10 }]} >
+                <View style={[styles.rowFlex, styles.flexStart]} >
                     <Ionicons name="ios-notifications-outline" size={32} color={PRIMARY} />
                     <Text style={styles.itemTitle} >Notifications</Text>
                 </View>
                 <View style={styles.borderBox} >
-                    <View style={[styles.rowFlex, { paddingHorizontal: 10, paddingVertical: 5 }]} >
+                    <View style={[styles.rowFlex, styles.paddingXY]} >
                         <Text style={styles.flexTxt} >
                             Nouvelles offres par push
                         </Text>
@@ -103,7 +103,7 @@ const Compte = () => {
 
                     </View>
                     <View style={styles.divider} />
-                    <View style={[styles.rowFlex, { paddingHorizontal: 10, paddingVertical: 5 }]} >
+                    <View style={[styles.rowFlex, styles.paddingXY]} >
                         <Text style={styles.flexTxt} >
                             Nouvelle offres par courriel
                         </Text>
@@ -116,7 +116,7 @@ const Compte = () => {
                         />
                     </View>
                     <View style={styles.divider} />
-                    <View style={[styles.rowFlex, { paddingHorizontal: 10, paddingVertical: 5 }]} >
+                    <View style={[styles.rowFlex, styles.paddingXY]} >
                         <Text style={styles.flexTxt} >
                             Nouvelles promotions Merci
                         </Text>
@@ -129,7 +129,7 @@ const Compte = () => {
                         />
                     </View>
                     <View style={styles.divider} />
-                    <View style={[styles.rowFlex, { paddingHorizontal: 10, paddingVertical: 5 }]} >
+                    <View style={[styles.rowFlex, styles.paddingXY]} >
                         <Text style={styles.flexTxt} >
                             M'aviser lorsque des soldes de mn compte sont utilises pour effectuer uun paiement
                         </Text>
@@ -143,7 +143,7 @@ const Compte = () => {
                     </View>
                 </View>
             </View>
-            <View style={[styles.rowFlex, { justifyContent: 'flex-start', paddingHorizontal: 10, paddingVertical: 5, marginBottom: 30 }]} >
+            <View style={[styles.rowFlex, styles.bottomIcon]} >
                 <View style={[styles.pizzIcon]} >
                     <Ionicons name="md-pizza-outline" size={44} color={PRIMARY} />
                 </View>

@@ -14,7 +14,7 @@ const claire_bg = require('../../assets/images/Backgrounds/ClaireMode.png')
 
 const Home = () => {
     return (
-        <Container style={{ paddingHorizontal: 0, paddingTop: 0 }} >
+        <Container style={styles.container} >
             <ImageBackground source={claire_bg} style={styles.bgContainer} >
                 <View style={styles.homeTop} >
                     <Text style={styles.userName} >Bonjour John</Text>
@@ -22,9 +22,9 @@ const Home = () => {
                         <Ionicons style={styles.infoIcon} name="alert-circle-outline" size={20} color={BLACK} />
                         <Text style={styles.soldeTxt} >Ton solde est de <Text style={styles.soldePrice} >11,23E</Text></Text>
                     </View>
-                    <Input inputStyle={{ borderColor: '#000', borderWidth: 1, width: '90%', alignSelf: 'center' }} placeholder={"Entrez un code promo"} rigthIcon={<Ionicons name='checkmark' size={20} color={BLACK} />} />
+                    <Input inputStyle={styles.searchInput} placeholder={"Entrez un code promo"} rigthIcon={<Ionicons name='checkmark' size={20} color={BLACK} />} />
                 </View>
-                <View style={{ paddingHorizontal: 20 }} >
+                <View style={styles.pH} >
                     <View style={[styles.rowFlex, styles.rowFlexPadding]} >
                         <Text style={styles.itemTxt} >
                             Vous y etes presque!
@@ -47,11 +47,11 @@ const Home = () => {
                             <View style={styles.promoSlide} >
                                 <Image source={promo} style={styles.promoImg} />
                                 <View style={styles.promoBottom} >
-                                    <View style={[styles.rowFlex, { justifyContent: 'flex-start', marginBottom: 20 }]} >
+                                    <View style={[styles.rowFlex, styles.flexStart]} >
                                         <View style={[styles.pizzIcon]} >
                                             <Ionicons name="md-pizza-outline" size={24} color={PRIMARY} />
                                         </View>
-                                        <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', flex: 1, }} >
+                                        <View style={styles.rowFlex_2} >
                                             <Text style={[styles.yelTxt, { marginLeft: 5 }]} >10 pointes de pizza</Text>
                                             <Text style={styles.yelTxt} >6,00E</Text>
                                         </View>
@@ -62,11 +62,11 @@ const Home = () => {
                             <View style={styles.promoSlide} >
                                 <Image source={promo} style={styles.promoImg} />
                                 <View style={styles.promoBottom} >
-                                    <View style={[styles.rowFlex, { justifyContent: 'flex-start', marginBottom: 20 }]} >
+                                    <View style={[styles.rowFlex, styles.flexStart]} >
                                         <View style={[styles.pizzIcon]} >
                                             <Ionicons name="md-pizza-outline" size={24} color={PRIMARY} />
                                         </View>
-                                        <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', flex: 1, }} >
+                                        <View style={styles.rowFlex_2} >
                                             <Text style={[styles.yelTxt, { marginLeft: 5 }]} >10 pointes de pizza</Text>
                                             <Text style={styles.yelTxt} >6,00E</Text>
                                         </View>

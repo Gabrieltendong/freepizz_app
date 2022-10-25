@@ -15,8 +15,44 @@ const Freebees = () => {
                 <View style={[styles.pizzIcon]} >
                     <Ionicons name="md-pizza-outline" size={28} color={PRIMARY} />
                 </View>
-                <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', flex: 1, }} >
-                    <Text style={[styles.yelTxt, { marginLeft: 5, fontWeight: 'bold' }]} >Bistro Aleria</Text>
+                <View style={styles.rowFlex_2} >
+                    <Text style={[styles.yelTxt, styles.yelTxtBold]} >Bistro Aleria</Text>
+                    <Text style={styles.yelTxt} >50,00$</Text>
+                </View>
+            </View>
+            <View style={[styles.rowFlex, styles.pizzWrapper]} >
+                <View style={[styles.pizzIcon]} >
+                    <Ionicons name="md-pizza-outline" size={28} color={PRIMARY} />
+                </View>
+                <View style={styles.rowFlex_2} >
+                    <Text style={[styles.yelTxt, styles.yelTxtBold]} >Au Royaume des animaux</Text>
+                    <Text style={styles.yelTxt} >50,00$</Text>
+                </View>
+            </View>
+            <View style={[styles.rowFlex, styles.pizzWrapper]} >
+                <View style={[styles.pizzIcon]} >
+                    <Ionicons name="md-pizza-outline" size={28} color={PRIMARY} />
+                </View>
+                <View style={styles.rowFlex_2} >
+                    <Text style={[styles.yelTxt, styles.yelTxtBold]} >Bistro Aleria</Text>
+                    <Text style={styles.yelTxt} >50,00$</Text>
+                </View>
+            </View>
+            <View style={[styles.rowFlex, styles.pizzWrapper]} >
+                <View style={[styles.pizzIcon]} >
+                    <Ionicons name="md-pizza-outline" size={28} color={PRIMARY} />
+                </View>
+                <View style={styles.rowFlex_2} >
+                    <Text style={[styles.yelTxt, styles.yelTxtBold]} >Au Royaume des animaux</Text>
+                    <Text style={styles.yelTxt} >50,00$</Text>
+                </View>
+            </View>
+            <View style={[styles.rowFlex, styles.pizzWrapper]} >
+                <View style={[styles.pizzIcon]} >
+                    <Ionicons name="md-pizza-outline" size={28} color={PRIMARY} />
+                </View>
+                <View style={styles.rowFlex_2} >
+                    <Text style={[styles.yelTxt, styles.yelTxtBold]} >Bistro Aleria</Text>
                     <Text style={styles.yelTxt} >50,00$</Text>
                 </View>
             </View>
@@ -24,53 +60,17 @@ const Freebees = () => {
                 <View style={[styles.pizzIcon]} >
                     <Ionicons name="md-pizza-outline" size={28} color={PRIMARY} />
                 </View>
-                <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', flex: 1, }} >
-                    <Text style={[styles.yelTxt, { marginLeft: 5, fontWeight: 'bold' }]} >Au Royaume des animaux</Text>
+                <View style={styles.rowFlex_2} >
+                    <Text style={[styles.yelTxt, styles.yelTxtBold]} >Au Royaume des animaux</Text>
                     <Text style={styles.yelTxt} >50,00$</Text>
                 </View>
             </View>
-            <View style={[styles.rowFlex, { justifyContent: 'flex-start', backgroundColor: '#00000010', padding: 6, height: 56 }]} >
+            <View style={[styles.rowFlex, styles.pizzWrapper]} >
                 <View style={[styles.pizzIcon]} >
                     <Ionicons name="md-pizza-outline" size={28} color={PRIMARY} />
                 </View>
-                <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', flex: 1, }} >
-                    <Text style={[styles.yelTxt, { marginLeft: 5, fontWeight: 'bold' }]} >Bistro Aleria</Text>
-                    <Text style={styles.yelTxt} >50,00$</Text>
-                </View>
-            </View>
-            <View style={[styles.rowFlex, { justifyContent: 'flex-start', padding: 6, height: 56 }]} >
-                <View style={[styles.pizzIcon]} >
-                    <Ionicons name="md-pizza-outline" size={28} color={PRIMARY} />
-                </View>
-                <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', flex: 1, }} >
-                    <Text style={[styles.yelTxt, { marginLeft: 5, fontWeight: 'bold' }]} >Au Royaume des animaux</Text>
-                    <Text style={styles.yelTxt} >50,00$</Text>
-                </View>
-            </View>
-            <View style={[styles.rowFlex, { justifyContent: 'flex-start', backgroundColor: '#00000010', padding: 6, height: 56 }]} >
-                <View style={[styles.pizzIcon]} >
-                    <Ionicons name="md-pizza-outline" size={28} color={PRIMARY} />
-                </View>
-                <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', flex: 1, }} >
-                    <Text style={[styles.yelTxt, { marginLeft: 5, fontWeight: 'bold' }]} >Bistro Aleria</Text>
-                    <Text style={styles.yelTxt} >50,00$</Text>
-                </View>
-            </View>
-            <View style={[styles.rowFlex, { justifyContent: 'flex-start', padding: 6, height: 56 }]} >
-                <View style={[styles.pizzIcon]} >
-                    <Ionicons name="md-pizza-outline" size={28} color={PRIMARY} />
-                </View>
-                <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', flex: 1, }} >
-                    <Text style={[styles.yelTxt, { marginLeft: 5, fontWeight: 'bold' }]} >Au Royaume des animaux</Text>
-                    <Text style={styles.yelTxt} >50,00$</Text>
-                </View>
-            </View>
-            <View style={[styles.rowFlex, { justifyContent: 'flex-start', backgroundColor: '#00000010', padding: 6, height: 56 }]} >
-                <View style={[styles.pizzIcon]} >
-                    <Ionicons name="md-pizza-outline" size={28} color={PRIMARY} />
-                </View>
-                <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', flex: 1, }} >
-                    <Text style={[styles.yelTxt, { marginLeft: 5, fontWeight: 'bold' }]} >Bistro Aleria</Text>
+                <View style={styles.rowFlex_2} >
+                    <Text style={[styles.yelTxt, styles.yelTxtBold]} >Bistro Aleria</Text>
                     <Text style={styles.yelTxt} >50,00$</Text>
                 </View>
             </View>

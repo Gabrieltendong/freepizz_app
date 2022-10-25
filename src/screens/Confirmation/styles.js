@@ -7,6 +7,21 @@ export default StyleSheet.create({
         justifyContent: 'space-between',
     },
 
+    pizzWrapper: {
+        justifyContent: 'flex-start',
+        padding: 6,
+        height: 56
+    },
+
+    rowFlex_2: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        flex: 1,
+    },
+
+
+
     codeTxt: {
         fontSize: 18,
         marginTop: 20,
@@ -42,6 +57,18 @@ export default StyleSheet.create({
         color: BLACK,
     },
 
+    confirmBtnText: {
+        width: '90%',
+        alignSelf: 'center',
+        marginVertical: 10
+    },
+
+    cancelBtnText: {
+        width: '90%',
+        alignSelf: 'center',
+        backgroundColor: BLACK
+    },
+
     pizzIcon: {
         height: 44,
         width: 44,
@@ -55,5 +82,7 @@ export default StyleSheet.create({
         fontSize: 16,
         color: BLACK,
         fontWeight: 'bold'
-    }
+    },
+
+    yelTxtBold: { marginLeft: 5, fontWeight: 'bold' }
 })

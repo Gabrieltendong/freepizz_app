@@ -19,6 +19,17 @@ export default StyleSheet.create({
         justifyContent: 'space-between'
     },
 
+    flexStart: {
+        justifyContent: 'flex-start',
+        marginBottom: 10,
+        marginLeft: 10
+    },
+
+    paddingXY: {
+        paddingHorizontal: 10,
+        paddingVertical: 5
+    },
+
     flexTxt: {
         fontSize: 18,
         fontWeight: '400',
@@ -50,5 +61,12 @@ export default StyleSheet.create({
         fontSize: 12,
         color: PRIMARY,
         fontWeight: 'bold'
+    },
+
+    bottomIcon: {
+        justifyContent: 'flex-start',
+        paddingHorizontal: 10,
+        paddingVertical: 5,
+        marginBottom: 30
     }
 })

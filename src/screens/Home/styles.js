@@ -4,6 +4,13 @@ import { BLACK, PRIMARY, WHITE } from "../../styles/colors";
 const { height } = Dimensions.get('screen')
 
 export default StyleSheet.create({
+
+    container: {
+        paddingHorizontal: 0,
+        paddingTop: 0
+    },
+
+
     bgContainer: {
         flex: 1,
         height: height,
@@ -30,6 +37,17 @@ export default StyleSheet.create({
         fontSize: 26,
         fontWeight: '500',
         textAlign: 'center'
+    },
+
+    searchInput: {
+        borderColor: '#000',
+        borderWidth: 1,
+        width: '90%',
+        alignSelf: 'center'
+    },
+
+    pH: {
+        paddingHorizontal: 20
     },
 
     soldePrice: {
@@ -81,6 +99,11 @@ export default StyleSheet.create({
         paddingVertical: 5
     },
 
+    flexStart: {
+        justifyContent: 'flex-start',
+        marginBottom: 20
+    },
+
     pizzIcon: {
         height: 34,
         width: 34,
@@ -88,6 +111,13 @@ export default StyleSheet.create({
         borderRadius: 10,
         alignItems: 'center',
         justifyContent: 'center'
+    },
+
+    rowFlex_2: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        flex: 1,
     },
 
     yelTxt: {
