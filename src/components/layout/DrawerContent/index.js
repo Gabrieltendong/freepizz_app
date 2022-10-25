@@ -2,14 +2,14 @@ import { View, Text, ScrollView, Image, TouchableOpacity, SafeAreaView } from 'r
 import React from 'react'
 import styles from './styles'
 import Ionicons from '@expo/vector-icons/Ionicons';
-import { CODE_PROMO, FREE_BEES, RESTO } from '../../../constants/routes';
+import { ACCOUNT, APROPOS, CODE_PROMO, FREE_BEES, RESTO } from '../../../constants/routes';
 
 
 const logo = require('../../../assets/images/Logo/LOGO-BANANE.png')
 
 const drawerLink = [
-    { title: "Compte et preferences", route: 'Compte' },
-    { title: "A propos du programme", route: 'Compte' },
+    { title: "Compte et preferences", route: ACCOUNT },
+    { title: "A propos du programme", route: APROPOS },
     { title: "Freebees", route: FREE_BEES },
     { title: "Historique de transaction", route: 'Compte' },
     { title: "Nos Restos", route: RESTO },

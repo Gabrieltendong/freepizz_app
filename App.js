@@ -7,18 +7,13 @@ import { PRIMARY } from './src/styles/colors';
 
 export default function App() {
   return (
+
     <NavigationContainer>
       <StatusBar backgroundColor={PRIMARY} />
       <Router />
     </NavigationContainer>
+
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+

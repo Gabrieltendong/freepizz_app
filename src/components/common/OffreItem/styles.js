@@ -35,6 +35,12 @@ export default StyleSheet.create({
         justifyContent: 'center'
     },
 
+    icon: {
+        transform: [
+            { rotate: "90deg" },
+        ]
+    },
+
     yelTxt: {
         fontSize: 12,
         color: PRIMARY,

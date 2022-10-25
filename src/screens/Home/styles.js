@@ -10,11 +10,20 @@ export default StyleSheet.create({
 
     },
 
+    homeTop: {
+        backgroundColor: '#ffffff70',
+        padding: 15
+    },
+
     userName: {
         fontSize: 13,
         color: BLACK,
         textAlign: 'center',
         marginVertical: 15
+    },
+
+    infoIcon: {
+        alignSelf: 'flex-end',
     },
 
     soldeTxt: {
@@ -31,6 +40,22 @@ export default StyleSheet.create({
     rowFlex: {
         flexDirection: 'row',
         justifyContent: 'space-between'
+    },
+
+    rowFlexPadding: { paddingHorizontal: 10, marginBottom: 8 },
+
+    alignCenter: {
+        alignItems: 'center'
+    },
+
+    promoWrapper: {
+        height: 240,
+        width: '100%',
+    },
+
+    pagination: {
+        position: 'absolute',
+        bottom: 0,
     },
 
     promoSlide: {

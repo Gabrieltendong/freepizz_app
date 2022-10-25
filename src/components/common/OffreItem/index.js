@@ -11,7 +11,7 @@ const OffreItem = ({ src }) => {
             <Image source={src} style={styles.itemImg} />
             <View style={[styles.rowFlex, { justifyContent: 'flex-start', paddingHorizontal: 10, paddingVertical: 5, backgroundColor: BLACK }]} >
                 <View style={[styles.pizzIcon]} >
-                    <Ionicons name="md-pizza-outline" size={24} color={PRIMARY} />
+                    <Ionicons style={styles.icon} name="md-pizza-outline" size={24} color={PRIMARY} />
                 </View>
                 <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', flex: 1, }} >
                     <Text style={[styles.yelTxt, { marginLeft: 5 }]} >Repas enfant</Text>

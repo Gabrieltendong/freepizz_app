@@ -1,9 +1,11 @@
 import * as React from 'react';
 import { View, useWindowDimensions } from 'react-native';
 import { TabView, SceneMap, TabBar } from 'react-native-tab-view';
+import Header from '../../components/common/Header';
 import { BLACK, PRIMARY } from '../../styles/colors';
 import ListScreen from './ListScreen';
 import MapScreen from './MapScreen';
+import styles from './styles';
 
 
 
@@ -13,7 +15,7 @@ const renderScene = SceneMap({
     second: ListScreen,
 });
 
-export default function Restos() {
+export default function Restos({ navigation, route }) {
     const layout = useWindowDimensions();
 
     const renderTabBar = props => (

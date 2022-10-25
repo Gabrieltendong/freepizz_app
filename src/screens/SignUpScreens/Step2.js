@@ -28,10 +28,10 @@ const Step2 = () => {
                     setSelectedIndex(index);
                 }}
                 tintColor={PRIMARY}
-                style={{ borderColor: PRIMARY }}
-                activeFontStyle={{ WHITE }}
+                style={styles.segmentWrapper}
+                activeFontStyle={{ color: WHITE }}
                 fontStyle={{ color: BLACK }}
-                tabStyle={{ borderRadius: 25, height: 50 }}
+                tabStyle={styles.segmentTab}
                 backgroundColor={GRAY_LIGHTER}
             />
             {

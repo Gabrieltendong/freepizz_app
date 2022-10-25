@@ -7,7 +7,7 @@ import styles from './styles';
 import SelectDate from '../../components/common/Select';
 import { useState } from 'react';
 
-const Profile = () => {
+const Compte = () => {
     const [isEnabled, setIsEnabled] = useState(false);
     const toggleSwitch = () => setIsEnabled(previousState => !previousState);
     return (
@@ -157,4 +157,4 @@ const Profile = () => {
     )
 }
 
-export default Profile
+export default Compte

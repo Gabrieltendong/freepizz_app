@@ -13,7 +13,7 @@ const Step4 = () => {
     return (
         <View>
             <Text style={styles.txtHeader} >Etape 4</Text>
-            <Text style={styles.txtSub} >Pour obtenir mes cadeaux</Text>
+            <Text style={styles.txtSub} >Pour obtenir mes cadeaux!</Text>
 
             <Input label={"Code Postal"} />
             <Text style={styles.txtOu} >OU</Text>

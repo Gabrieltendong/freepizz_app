@@ -6,8 +6,9 @@ import Offres from "../screens/Offres";
 import Reserver from "../screens/Reserver";
 import Ionicons from '@expo/vector-icons/Ionicons';
 import Drawer from "./Drawer";
-import Profile from "../screens/Profile";
+import Profile from "../screens/Compte";
 import { BLACK, LIGHT_GRAY, PRIMARY, WHITE } from "../styles/colors";
+import Compte from "../screens/Compte";
 
 const tabs = createBottomTabNavigator()
 
@@ -17,6 +18,7 @@ const Tabs = () => {
             headerStyle: { backgroundColor: PRIMARY },
             tabBarStyle: { backgroundColor: PRIMARY },
             tabBarActiveTintColor: BLACK,
+            headerTitleAlign: 'center',
             tabBarInactiveTintColor: LIGHT_GRAY,
 
         }} >
@@ -64,7 +66,7 @@ const Tabs = () => {
                         color={color}
                     />
                 ),
-            }} name="Compte" component={Profile} />
+            }} name="Scan" component={Compte} />
         </tabs.Navigator>
     )
 }

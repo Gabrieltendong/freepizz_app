@@ -2,13 +2,14 @@ import { View, Text } from 'react-native'
 import React from 'react'
 import styles from './styles'
 import SelectDropdown from 'react-native-select-dropdown'
-import { Feather } from '@expo/vector-icons';
+import { Ionicons } from '@expo/vector-icons';
+import { WHITE } from '../../../styles/colors';
 
 
 
 const SelectDate = ({ label }) => {
 
-    const countries = ["Egypt", "Canada", "Australia", "Ireland", "Egypt", "Canada", "Australia", "Ireland", "Egypt", "Canada", "Australia", "Ireland", "Egypt", "Canada", "Australia", "Ireland"]
+    const countries = ["Francais"]
     const [focus, setFocus] = React.useState(false)
     return (
         <View style={styles.selectWrapper} >
@@ -29,7 +30,7 @@ const SelectDate = ({ label }) => {
                         </View>
                         <View>
                             {
-                                !focus ? <Feather name='chevron-down' size={22} color='lightgray' /> : <Feather name='chevron-up' size={22} color='lightgray' />
+                                !focus ? <Ionicons name='ios-caret-down-outline' size={22} color={WHITE} /> : <Ionicons name='ios-caret-up-outline' size={22} color={WHITE} />
                             }
                         </View>
                     </View>
